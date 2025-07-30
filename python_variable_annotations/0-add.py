@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-a type-annotated function add that takes a float a and a float b as arguments
-and returns their sum as a float.
+This module contains a function that adds two float numbers.
 """
 
-
 def add(a: float, b: float) -> float:
-    return a+b
+    """Return the sum of two float numbers a and b."""
+    return a + b
+
